@@ -1,12 +1,11 @@
 {
-  "editor.defaultFormatter": "vscode.emmet",
+  "editor.defaultFormatter": "HookyQR.beautify",
   "editor.formatOnType": true,
   "formatSelectionAsHtml.formatter": "js-beautify",
   "formatSelectionAsHtml.htmlWhitespaceSensitivity": "css",
   "editor.defaultFoldingRangeProvider": "SimonSiefke.prettier-vscode",
   "css.format.enable": true,
-  "html.format.wrapAttributes": "force-aligned",
-  "html.autoCreateQuotes": false,
+  "html.autoCreateQuotes": true,
   "html.completion.attributeDefaultValue": "singlequotes",
   "prettier.enabledLanguageIds": [
     "csharp",
@@ -40,12 +39,14 @@
   ],
   "html.format.unformatted": "wbr",
   "[html]": {
-    "editor.defaultFormatter": "vscode.html-language-features"
+    "editor.defaultFormatter": "HookyQR.beautify"
   },
   "html.format.enable": true,
   "html.format.templating": true,
   "editor.unicodeHighlight.includeComments": true,
   "comments.openView": "file",
   "html-css-class-completion.enableEmmetSupport": true,
-  "editor.suggest.preview": true
+  "editor.suggest.preview": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true
 }
