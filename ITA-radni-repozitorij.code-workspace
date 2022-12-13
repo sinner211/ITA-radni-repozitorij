@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"css.format.enable": true,
+		"html.format.enable": true,
+		"comments.openView": "file",
+		"html-css-class-completion.enableEmmetSupport": true
+	}
+}
