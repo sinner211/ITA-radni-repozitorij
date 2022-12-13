@@ -1,0 +1,21 @@
+.grid-kontejner {
+    display: grid;
+    width: 600px;
+    height: 500px;
+    grid-template-rows: repeat(10, 50px);
+    grid-template-columns:repeat(10, 60px);
+    border: 1px solid black;
+    
+    
+
+}
+html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+}
