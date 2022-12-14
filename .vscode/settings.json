@@ -51,5 +51,8 @@
   "editor.formatOnPaste": true,
   "[css]": {
     "editor.defaultFormatter": "michelemelluso.code-beautifier"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
   }
 }

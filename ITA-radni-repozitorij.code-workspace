@@ -1,16 +1,55 @@
 {
-	"folders": [
-		{
-			"path": "."
-		}
-	],
-	"settings": {
-		"css.format.enable": false,
-		"html.format.enable": false,
-		"comments.openView": "file",
-		"html-css-class-completion.enableEmmetSupport": true,
-		"editor.defaultFormatter": "jameszhanga.even-prettier",
-		"editor.formatOnType": true,
-		"html.format.templating": true
-	}
+    "folders": [
+        {
+            "path": "."
+        }
+    ],
+    "settings": {
+        "html.autoCreateQuotes": false,
+        "html.format.templating": true,
+        "css.lint.emptyRules": "ignore",
+        "html-css-class-completion.enableEmmetSupport": false,
+        "diffEditor.wordWrap": "on",
+        "editor.wordWrap": "on",
+        "scss.completion.completePropertyWithSemicolon": false,
+        "scss.completion.triggerPropertyValueCompletion": true,
+        "css.validate": true,
+        "emmet.preferences": {
+            "css.propertyEnd": " ",
+            "css.valueSeparator": ": ",
+            "output.selfClosingStyle": "html",
+        },
+        "emmet.showSuggestionsAsSnippets": false,
+        "editor.fontSize": 16,
+        "workbench.editor.enablePreview": false,
+        "editor.autoClosingQuotes": "always",
+        "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+        "editor.defaultFormatter": "jameszhanga.even-prettier",
+        "editor.guides.bracketPairs": true,
+        "editor.linkedEditing": true,
+        "editor.mouseWheelZoom": true,
+        "editor.renderWhitespace": "all",
+        "editor.scrollPredominantAxis": true,
+        "editor.smoothScrolling": true,
+        "editor.wrappingStrategy": "advanced",
+        "editor.minimap.enabled": false,
+        "editor.suggestSelection": "recentlyUsed",
+        "editor.wordBasedSuggestionsMode": "allDocuments",
+        "files.autoSave": "afterDelay",
+        "workbench.list.smoothScrolling": true,
+        "workbench.startupEditor": "none",
+        "workbench.colorTheme": "Community Material Theme",
+        "workbench.preferredDarkColorTheme": "Material Theme",
+        "workbench.preferredHighContrastColorTheme": "Community Material Theme",
+        "zenMode.centerLayout": false,
+        "sync.autoDownload": true,
+        "emmet.showAbbreviationSuggestions": false,
+        "prettier.cssEnable": [
+        
+            "css",
+            "less",
+            "scss",
+            "postcss"
+        ]
+    }
 }
