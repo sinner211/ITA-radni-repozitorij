@@ -42,16 +42,43 @@ body {
     width: 100%;
     height: 60%;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
 }
 
+.button {
+    font-size: 21px;
+    font-family: Verdana;
+    width: 200px;
+    height: 25px;
+    border-width: 1px;
+    color: #fff;
+    border-color: rgba(0, 0, 0, 1);
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    background: rgba(0, 0, 0, 1);
+    text-align: center;
+    text-decoration: none;
+
+}
+
+.button:hover {
+    background: rgb(218, 64, 64)
+}
+
 .right-bottom {
-    
-        height: 588.43px;
-        width: 100%;
-        background-color: gray;
-        display: flex;
-        align-self: flex-end;
-    
+
+    height: 142.11px;
+    width: 100%;
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    align-items: center;
+    justify-content: center;
 
 }

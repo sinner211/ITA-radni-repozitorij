@@ -1,0 +1,6 @@
+{
+    "files.autoSave": "afterDelay",
+    "sync.autoUpload": true,
+    "files.autoSaveDelay": 1000,
+    "html-css-class-completion.enableEmmetSupport": true
+}
