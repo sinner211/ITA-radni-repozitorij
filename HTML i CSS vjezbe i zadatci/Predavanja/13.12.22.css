@@ -10,20 +10,16 @@ body {
     margin: 0;
 }
 
-.mainbox{
+.mainbox {
     display: block;
     height: 100%;
     width: 100%;
 }
 
-.main-left{
-width: 50%;
-height: 100%;
-display: grid;
-grid-column: 3;
-grid-row: 9;
-}
-
-.main-right{
-display: flex;
-}
+.main-left {
+    display: grid;
+    width: 50%;
+    height: 100%;
+    grid-template-rows: repeat(9, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;}

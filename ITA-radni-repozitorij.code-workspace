@@ -5,9 +5,12 @@
 		}
 	],
 	"settings": {
-		"css.format.enable": true,
-		"html.format.enable": true,
+		"css.format.enable": false,
+		"html.format.enable": false,
 		"comments.openView": "file",
-		"html-css-class-completion.enableEmmetSupport": true
+		"html-css-class-completion.enableEmmetSupport": true,
+		"editor.defaultFormatter": "jameszhanga.even-prettier",
+		"editor.formatOnType": true,
+		"html.format.templating": true
 	}
 }

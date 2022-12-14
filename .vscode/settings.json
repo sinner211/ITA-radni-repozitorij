@@ -1,5 +1,5 @@
 {
-  "editor.defaultFormatter": "HookyQR.beautify",
+  "editor.defaultFormatter": "jameszhanga.even-prettier",
   "editor.formatOnType": true,
   "formatSelectionAsHtml.formatter": "js-beautify",
   "formatSelectionAsHtml.htmlWhitespaceSensitivity": "css",
@@ -39,7 +39,7 @@
   ],
   "html.format.unformatted": "wbr",
   "[html]": {
-    "editor.defaultFormatter": "HookyQR.beautify"
+    "editor.defaultFormatter": "vscode.html-language-features"
   },
   "html.format.enable": true,
   "html.format.templating": true,
@@ -48,5 +48,8 @@
   "html-css-class-completion.enableEmmetSupport": true,
   "editor.suggest.preview": true,
   "editor.formatOnSave": true,
-  "editor.formatOnPaste": true
+  "editor.formatOnPaste": true,
+  "[css]": {
+    "editor.defaultFormatter": "michelemelluso.code-beautifier"
+  }
 }
