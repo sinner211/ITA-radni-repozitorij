@@ -1,0 +1,135 @@
+html {
+    height: auto;
+    width: auto;
+    margin: 0;
+    overflow: scroll;
+}
+
+body {
+    margin: 0;
+    height: inherit;
+    width: inherit;
+}
+
+.glavni-box {
+    display: flex;
+    background-color: black;
+    height: inherit;
+    width: inherit;
+}
+
+.glavni-lijevi {
+    width: 300px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    height: inherit;
+}
+
+.glavni-desni {
+    display: flex;
+    background-color: black;
+    flex-grow: 2;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+.gl-gore {
+    display: flex;
+    height: 50%;
+    width: inherit;
+    border-bottom: 1px black solid;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.gl-dole {
+    display: flex;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.dzo {
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+}
+
+.gd-gore {
+    display: flex;
+    flex-direction: row-reverse;
+    height: 100px;
+    width: 100%;
+    margin: 2px;
+}
+
+.gd-srednji {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.gd-dole {
+    display: flex;
+    height: 100px;
+    width: 100%;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: space-between;
+    flex-direction: column;
+    margin: 2px;
+}
+
+
+
+.dugme {
+    height: 50px;
+    width: 200px;
+    color: black;
+    background-color: white;
+    font-weight: bolder;
+    font-size: 25px;
+    margin: 15px;
+    border-radius: 50px;
+}
+
+.flexbox-futer {
+    width: fit-content;
+    height: 100%;
+    color: white;
+    font-size: 20px;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+}
+
+.futer-ikone {
+    width: fit-content;
+    height: 100%;
+    margin-right: 15px;
+    display: inline-flex;
+    gap: 15px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    margin-right: 15px;
+}
+
+ul {
+    color: white;
+    font-size: 20px;
+    text-align: end;
+
+
+}
