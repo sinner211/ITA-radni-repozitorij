@@ -58,54 +58,62 @@ body {
 }
 
 #home-icon {
-
     height: 25px;
-    width:25px;
-    background-image:url(icon-home.png);
-    background-repeat: no-repeat;
-    background-position: center;
-}
-#home-icon:hover {
+    width: 25px;
     
 }
+
+#home-icon:hover {
+    background-image: url(icon-home-hover.png);
+    background-size: 25px 25px;
+    background-repeat: no-repeat;
+    mask-image:url(icon-home-hover.png);
+    mask: mode 100%;
+    mask-type:luminance;
+}
+
 #home-text {
-    color: #d35266;
-    font-size: 18px;
+   
     font-family: "-apple-system", "BlinkMacSystemFont", 'Segoe UI', "Roboto, Oxygen", "Ubuntu", "Cantarell", "Open Sans", "Helvetica Neue", "sans-serif";
-    margin-left: 10px;
-    font-style: normal;
+   
     display: flex;
     align-items: center;
     margin-right: 15px;
-text-decoration: none;
-}
     
+}
+
 #nav-selector {
-    width: fit-content;
-    height: 100%;
+
     display: flex;
     margin-left: 70px;
-    align-items: center;
+    height: 100%;
+    width: max-content;
+
+}
+
+#a1, #a1:visited, #a1:link #a1:any-link {
+    font-style: normal;
+    display: flex;
+    text-decoration: none;
     color: #d35266;
 }
 
-a, a:visited {
-    
-    font-style: normal;
-    display: flex;
-    align-items: center;
+#a1:hover {
+    color: red;
     text-decoration: none;
- color: inherit;
-}
-a:hover, a:active {
-  
     font-style: italic;
-    color:red;
+    background-image: url(icon-home-hover.png);
+    background-size: 25px 25px;
+    background-repeat: no-repeat;
+    background-position:left;
+    background-clip:color;
 }
+
 .top-bar-icon {
     height: 18px;
     width: 18px;
 }
+
 .top-bar-text {
     color: #888;
     font-size: 18px;
@@ -114,9 +122,10 @@ a:hover, a:active {
     font-style: normal;
     display: flex;
     align-items: center;
-    margin-right: 15px;;
+    margin-right: 15px;
+    ;
     font-size: 18px;
     font-family: "-apple-system", "BlinkMacSystemFont", 'Segoe UI', "Roboto, Oxygen", "Ubuntu", "Cantarell", "Open Sans", "Helvetica Neue", "sans-serif";
     text-decoration: :none;
-   
+
 }
