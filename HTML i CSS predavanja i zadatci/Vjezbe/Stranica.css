@@ -19,73 +19,87 @@ body {
 #top-bar {
     height: 63px;
     width: 100%;
-    display: inline-block;
+    display: flex;
     background-color: black;
     opacity: 80%;
     padding: 0 50px 0 50px;
-   
+
 }
 
 #logo-top {
-    
+
     height: 50px;
     width: 50px;
     margin: 10px;
-    
 }
 
+#top-bar-wawes {
+    height: 50px;
+    width: 50px;
+    background-image: url(top-bar-wawes.svg);
+    background-color: red;
+    visibility:visible ;
+}
 #logo-name {
     height: 100%;
     Width: auto;
     font-family: 'Fascinate', cursive;
     font-size: 25px;
     color: white;
-  
+
     align-self: center;
 }
-
-#logo-pic {
-    height: 50px;
-    width: 50px;
-    opacity: 100%;
-
+#logo-name:hover {
+    text-decoration: none;
 }
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 18px;
+    /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
 
-#home-icon {
-    height: 25px;
-    width: 25px;
-    
-}
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
 
-#home-icon:hover {
-    background-image: url(icon-home-hover.png);
-    background-size: 25px 25px;
-    background-repeat: no-repeat;
-    mask-image:url(icon-home-hover.png);
-    mask: mode 100%;
-    mask-type:luminance;
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+
+    /* Support for IE. */
+    font-feature-settings: 'liga';
 }
 
 #home-text {
-   
+
     font-family: "-apple-system", "BlinkMacSystemFont", 'Segoe UI', "Roboto, Oxygen", "Ubuntu", "Cantarell", "Open Sans", "Helvetica Neue", "sans-serif";
-   
-    display: flex;
     align-items: center;
+    justify-content: center;
     margin-right: 15px;
-    
+
+    width: 25px;
+    height: 25px;
 }
 
 #nav-selector {
-
     display: flex;
     margin-left: 70px;
     height: 100%;
-    width: max-content;
-
+    width: 100%;
+    align-items: center;
 }
 
-#a1, #a1:visited, #a1:link #a1:any-link {
+#a1,
+#a1:visited,
+#a1:link #a1:any-link {
     font-style: normal;
     display: flex;
     text-decoration: none;
@@ -96,11 +110,7 @@ body {
     color: red;
     text-decoration: none;
     font-style: italic;
-    background-image: url(icon-home-hover.png);
-    background-size: 25px 25px;
-    background-repeat: no-repeat;
-    background-position:left;
-    background-clip:color;
+    
 }
 
 .top-bar-icon {
@@ -120,9 +130,13 @@ body {
     ;
     font-size: 18px;
     font-family: "-apple-system", "BlinkMacSystemFont", 'Segoe UI', "Roboto, Oxygen", "Ubuntu", "Cantarell", "Open Sans", "Helvetica Neue", "sans-serif";
-    text-decoration: :none;
+    font-style: :none;
 
 }
-a, a:link, a:visited, a:any-link {
-    text-decoration: none;
+
+a:,
+a:link,
+a:visited,
+a:any-link {
+    text-decoration-style :none;
 }

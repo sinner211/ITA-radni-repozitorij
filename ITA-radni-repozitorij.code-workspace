@@ -50,6 +50,9 @@
             "less",
             "scss",
             "postcss"
-        ]
+        ],
+        "git.confirmSync": false,
+        "sync.forceDownload": true,
+        "sync.gist": "69342bc8ca48844b5a4291834e939e16"
     }
 }
