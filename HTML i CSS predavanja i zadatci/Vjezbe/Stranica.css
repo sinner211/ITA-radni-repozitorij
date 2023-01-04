@@ -1,142 +1,59 @@
 html {
+    height:100%;
     width: 100%;
-    height: 100%;
-    margin: 0;
 }
-
 body {
     width: 100%;
     height: 100%;
-    margin: 0;
 }
-
-#mainbox {
+#glavni {
+    width: 100%;
     height: 100%;
-    width: 100%;
-    margin: 0;
+   
 }
-
-#top-bar {
-    height: 63px;
+#top-bar{
+    height: 60px;
     width: 100%;
-    display: flex;
     background-color: black;
     opacity: 80%;
-    padding: 0 50px 0 50px;
-
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
-
-#logo-top {
-
-    height: 50px;
+#top-pic{
     width: 50px;
-    margin: 10px;
-}
-
-#top-bar-wawes {
     height: 50px;
-    width: 50px;
-    background-image: url(top-bar-wawes.svg);
-    background-color: red;
-    visibility:visible ;
+    margin:20px;
 }
-#logo-name {
-    height: 100%;
-    Width: auto;
-    font-family: 'Fascinate', cursive;
-    font-size: 25px;
-    color: white;
-
-    align-self: center;
-}
-#logo-name:hover {
+a {
     text-decoration: none;
+    color: inherit;
 }
-.material-icons {
-    font-family: 'Material Icons';
-    font-weight: normal;
-    font-style: normal;
-    font-size: 18px;
-    /* Preferred icon size */
-    display: inline-block;
-    line-height: 1;
-    text-transform: none;
-    letter-spacing: normal;
-    word-wrap: normal;
-    white-space: nowrap;
-    direction: ltr;
-
-    /* Support for all WebKit browsers. */
-    -webkit-font-smoothing: antialiased;
-    /* Support for Safari and Chrome. */
-    text-rendering: optimizeLegibility;
-
-    /* Support for Firefox. */
-    -moz-osx-font-smoothing: grayscale;
-
-    /* Support for IE. */
-    font-feature-settings: 'liga';
+a[target="HOME"]{
+    color:#dc3545;
+    font-size: 10px;
+    background-size: 10px
+    10px;
+   background-repeat:no-repeat;
+   
 }
 
-#home-text {
-
-    font-family: "-apple-system", "BlinkMacSystemFont", 'Segoe UI', "Roboto, Oxygen", "Ubuntu", "Cantarell", "Open Sans", "Helvetica Neue", "sans-serif";
-    align-items: center;
-    justify-content: center;
-    margin-right: 15px;
-
-    width: 25px;
-    height: 25px;
+a:hover[target="home"]{
+    color:red;
+    background-image:url(icon-home-hover.svg)
+    background-size:  10px 10px;
+    background-repeat:no-repeat;
 }
 
-#nav-selector {
-    display: flex;
-    margin-left: 70px;
-    height: 100%;
-    width: 100%;
-    align-items: center;
 }
-
-#a1,
-#a1:visited,
-#a1:link #a1:any-link {
-    font-style: normal;
-    display: flex;
-    text-decoration: none;
-    color: #d35266;
+#home:hover {
+    background-image:url(icon-home-hover.svg)
+    background-size:  10px 10px;
+    background-repeat:no-repeat;
 }
-
-#a1:hover {
-    color: red;
-    text-decoration: none;
-    font-style: italic;
-    
-}
-
-.top-bar-icon {
-    height: 18px;
-    width: 18px;
-}
-
-.top-bar-text {
-    color: #888;
-    font-size: 18px;
-    font-family: "-apple-system", "BlinkMacSystemFont", 'Segoe UI', "Roboto, Oxygen", "Ubuntu", "Cantarell", "Open Sans", "Helvetica Neue", "sans-serif";
-    margin-left: 10px;
-    font-style: normal;
-    display: flex;
-    align-items: center;
-    margin-right: 15px;
-    ;
-    font-size: 18px;
-    font-family: "-apple-system", "BlinkMacSystemFont", 'Segoe UI', "Roboto, Oxygen", "Ubuntu", "Cantarell", "Open Sans", "Helvetica Neue", "sans-serif";
-    font-style: :none;
-
-}
-
-a:,
-a:link,
-a:visited,
-a:any-link {
-    text-decoration-style :none;
+#home{
+    margin-left:15px
+    background-image:url(icon-home.png);
+    background-size:  10px 10px;
+    background-repeat:no-repeat;
 }
